@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: #202C36;
+    cursor: pointer;
+
+
+}
+
+:root {
+    --dark-mode: #2B3844;
+    --sun-mode: #ffffff;
+}
+
+.sun-theme {
+    --dark-mode: #FFFFFF;
+    --sun-mode: #2B3844;
+
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: var(--dark-mode);
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.nav_title {
+    color: var(--sun-mode);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.search {
+    width: 480px;
+    height: 56px;
+    margin-top: 48px;
+    background-color: var(--dark-mode);
+    padding-left: 74px;
+
+}
+
+
+
+.search_img {
+    padding-right: 32px;
+    padding-top: 18px;
+}
+
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    gap: 75px;
+
+}
+
+
+
+.flags {
+    width: 280px;
+    height: 336px;
+    border-radius: 10px;
+    background-color: var(--dark-mode);
+    color: var(--sun-mode);
+
+}
+
+
+.flags_title {
+    padding-left: 20px;
+}
+
+
+.flags_subtitle {
+    padding-left: 20px;
+}
+
+
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    gap: 75px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: var(--sun-mode);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 900px;
+    }
+
+    .flags {
+        width: 200px;
+    }
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+   
+}
+
+
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 400px;
+
+        .cards {
+            width: 160px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    }
+    .cards2 {
+        width: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+
+
+
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .cards {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+.cards2 {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {}
+
+   
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,131 @@
+body {
+    background-color: #202C36;
+
+
+}
+
+:root {
+    --dark-mode: #2B3844;
+    --sun-mode: #ffffff;
+}
+
+.sun-theme {
+    --dark-mode: #FFFFFF;
+    --sun-mode: #2B3844;
+
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: var(--dark-mode);
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.nav_title {
+    color: var(--sun-mode);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+.back {
+    width: 136px;
+    height: 40px;
+    background-color: var(--dark-mode);
+    margin-top: 80px;
+
+}
+
+.back_button{
+    background-color: var(--dark-mode);
+    color: var(--sun-mode);
+}
+
+
+.about_germany{
+   
+    margin-top: 45px;
+    color: var(--sun-mode);
+
+}
+
+.about_texts{
+    color: var(--sun-mode);
+}
+
+a{
+    text-decoration: none;
+    color: var(--sun-mode);
+}
+
+
+.countries{
+    color: var(--sun-mode);
+    margin-top: 32px;
+}
+
+
+
+.back_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   padding-top: 10px;
+    width: 110px;
+    height: 30px;
+    border: solid var(--dark-mode);
+}
+
+
+.btn_img{
+    
+}
+
+
+
+
+.buttons{
+    gap: 30px;
+    
+}
+
+
+.btn1{
+    background-color: var(--dark-mode);
+    border: solid var(--dark-mode);
+    color: var(--sun-mode);
+    width: 96px;
+    height: 28px;
+}
+    
